@@ -652,10 +652,18 @@ footer {
 
 .project-image {
     float: left;
-    width: 60px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 800px; /* Adjust the width to the desired size */
+    height: 800px; /* Adjust the height to the desired size */
+    overflow: hidden;
     padding: 15px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image fits within the container */
+    }
 }
+
 
 .project-info {
     position: absolute;
