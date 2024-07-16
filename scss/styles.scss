@@ -652,9 +652,10 @@ footer {
 
 .project-image {
     float: left;
-    width: 280px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
+    width: 33%;
+    height: auto;
     overflow: hidden;
+    border-radius: 4px 0 0 4px;
 
     img {
         width: 100%;
